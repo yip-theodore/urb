@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>urb.</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  	$(document).ready(function() {
+  		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+  			var page = $(this).attr('href'); // Page cible
+  			var speed = 500; // Durée de l'animation (en ms)
+  			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+  			return false;
+  		});
+  	});
+  </script>
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <div class="header_box">
+      <a href="" class="header_logo_a"><h1 class="header_logo">urb<span class="red">.</span></h1></a>
+      <nav class="header_nav">
+        <a href="" class="header_a explore">EXPLORE</a>
+        <a href="" class="header_a forum">FORUM</a>
+        <div class="dot_explore"></div>
+        <div class="dot_forum"></div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section0 accueil" id="section0">
+    <h2 class="s0_quote">Il n'est point de bonheur sans liberté,<br>ni de liberté sans <span class="red bold">courage.</span></h2>
+    <a href="#section1" class="s0_a js-scrollTo">
+      <div class="icon_scroll_box"></div>
+    </a>
+    <div class="nav_dot_accueil"></div>
+  </section>
+
+  <section class="section1 l-urbex" id="section1">
+    <div class="s1_box">
+      <article class="box">
+        <p class="text">Visiter un lieu abandonné est toujours comme une aventure : on marche dans les traces d’autres personnes, dans un lieu déserté, qui nous donne l’impression que l’on pourrait découvrir un trésor, un morceau de vie de ceux qui nous ont précédé. C’est un sentiment profond, l’émerveillement, le respect, parfois une certaine mélancolie…<br>Cet amour pour les lieux abandonnés a donné lieu à une pratique parmi les photographes : <span class="red">l’exploration urbaine</span> alias l’urbex.
+        <br><br><br>
+        <span class="s1_h4 med">Règles de l’urbex</span><br>
+        <img src="img/more.svg" alt="+ icon" class="more">
+        <span class="hidden_text">
+        – Eviter de partir seul<br>
+        – Toujours avoir un téléphone portable sur soi<br>
+        – Penser aussi à un kit de premiers secours, une lampe de poche, idéalement une  lampe frontale<br>
+        – Ne rien forcer pour entrer : la règle n’est pas forcément toujours suivie…<br>
+        – Laisser l’endroit comme on l’a trouvé, ne rien prendre<br>
+        – Refermer derrière soi<br>
+        – Et quand on parle des lieux d’urbex, en général, ne pas être trop précis, histoire d’éviter que des personnes malveillantes ne viennent détériorer les lieux
+        </span>
+        </p>
+        <h3 class="s1_h3">l'urbex&mdash;</h3>
+      </article>
+    </div>
+    <div class="nav_dot_l-urbex"></div>
+  </section>
+
+  <section class="section2 decouvrir" id="section2">
+    <a href="" class="s2_a">
+      <div class="s2_img_box">
+        <img src="img/s2-img1.jpg" alt="img1" class="s2_img">
+      </div>
+      <div class="cover">
+        <div class="box">
+          <h4 class="text"><span class="red med">Île-de-France, Paris</span><br>Usine désaffectée</h4>
+          <h3 class="s2_h3 white">découvrir&mdash;</h3>
+        </div>
+      </div>
+    </a>
+    <a href="" class="s2_a">
+      <div class="s2_img_box">
+        <img src="img/s2-img2.jpg" alt="img2" class="s2_img">
+      </div>
+      <div class="cover">
+        <div class="box">
+          <h4 class="text"><span class="red med">Nouvelle-Aquitaine, Limoges</span><br>Centre commercial abandonné</h4>
+          <h3 class="s2_h3 white">découvrir&mdash;</h3>
+        </div>
+      </div>
+    </a>
+    <a href="" class="s2_a">
+      <div class="s2_img_box">
+        <img src="img/s2-img3.jpg" alt="img3" class="s2_img">
+      </div>
+      <div class="cover">
+        <div class="box">
+          <h4 class="text"><span class="red med">Pays de la Loire, Angers</span><br>Hôpital abandonné</h4>
+          <h3 class="s2_h3 white">découvrir&mdash;</h3>
+        </div>
+      </div>
+    </a>
+    <a href="" class="s2_a">
+      <div class="s2_img_box">
+        <img src="img/s2-img4.jpg" alt="img4" class="s2_img">
+      </div>
+      <div class="cover">
+        <div class="box">
+          <h4 class="text"><span class="red med">Grand Est, Metz</span><br>Prison désaffecté</h4>
+          <h3 class="s2_h3 white">découvrir&mdash;</h3>
+        </div>
+      </div>
+    </a>
+    <a href="" class="s2_a">
+      <div class="s2_img_box">
+        <img src="img/s2-img5.jpg" alt="img5" class="s2_img">
+      </div>
+      <div class="cover">
+        <div class="box">
+          <h4 class="text"><span class="red med">Île-de-France, Melun</span><br>Théâtre déserté</h4>
+          <h3 class="s2_h3 white">découvrir&mdash;</h3>
+        </div>
+      </div>
+    </a>
+    <a href="" class="s2_a">
+      <div class="s2_img_box">
+        <img src="img/s2-img6.jpg" alt="img6" class="s2_img">
+      </div>
+      <div class="cover">
+        <div class="box">
+          <h4 class="text"><span class="red med">Provence-Alpes-Côte d'Azur, Marseille</span><br>Lycée abandonné</h4>
+          <h3 class="s2_h3 white">découvrir&mdash;</h3>
+        </div>
+      </div>
+    </a>
+    <div class="nav_dot_decouvrir"></div>
+  </section>
+
+  <section class="section3 a-propos" id="section3">
+    <article class="box">
+      <p class="text"><span class="bold">urb<span class="red">.</span></span> est un collectif de passionnés d'urbex, composé de photographes et d'explorateurs confirmés. Notre mission : faire découvrir notre quotidien aux curieux néophytes, partager nos expéditions, et vous proposer une immersion dans le passé de chaque lieu.<br>Fondé en 2017, le collectif porte un regard nouveau, en apesanteur, sur la société moderne et son architecture. Nos productions invitent à la découverte et au voyage. Ce site représente l'aboutissement de nombreuses années d'expérience d'excursion urbaine dans toute la France.</p>
+      <h3 class="s3_h3">à propos&mdash;</h3>
+    </article>
+    <footer class="footer">
+      <div class="footer_icon_box">
+        <a href="" class="footer_a"><img src="img/facebook.svg" alt="facebook icon" class="footer_icon"></a>
+        <a href="" class="footer_a"><img src="img/instagram.svg" alt="instagram icon" class="footer_icon"></a>
+        <a href="" class="footer_a"><img src="img/twitter.svg" alt="twitter icon" class="footer_icon"></a>
+      </div>
+      <p class="footer_text">© COPYRIGHT 2017 | URB.FR</p>
+    </footer>
+    <div class="nav_dot_a-propos"></div>
+  </section>
+
+  <nav class="nav">
+    <ul class="nav_ul">
+      <li class="nav_li"><a href="#section0" class="nav_a js-scrollTo">accueil</a></li>
+      <li class="nav_li"><a href="#section1" class="nav_a js-scrollTo">l'urbex</a></li>
+      <li class="nav_li"><a href="#section2" class="nav_a js-scrollTo">découvrir</a></li>
+      <li class="nav_li"><a href="#section3" class="nav_a js-scrollTo">à propos</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
